@@ -135,6 +135,7 @@ html{
     font-weight: 500;
     color: rgb(253, 253, 253);
     border: 1px solid red;
+    background: rgb(226, 2, 2);
     border-radius: 7px;
     text-align: center;
     padding-top: 5px;
@@ -143,11 +144,11 @@ html{
     margin-left: 0px;
   }
   .home .home-content a:hover{
-    font-size: 26px;
-    color: red;
-    background: rgb(0, 255, 128);
-    box-shadow: 3px 3px 5px 2px rgb(255, 230, 3);
-    text-shadow: 2px 2px 1px  rgb(255, 230, 3);
+    font-size: 27px;
+    color: rgb(254, 7, 7);
+    background: none;
+    box-shadow: 0px 0px 500px 5px rgb(209, 255, 3);
+    text-shadow: 0px 0px 20px  rgb(251, 251, 251);
   }
   .home .home-content .test-3 span{
     color: rgb(205, 1, 1);

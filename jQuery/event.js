@@ -60,4 +60,12 @@ $('.carousel').owlCarousel({
     }
   }
 });
+
+// ----------form events------------->
+$('.name input, .email input, .subject input, .textarea textarea').focus(function(){
+ $(this).css("background","pink");
+});
+$('.name input, .email input, .subject input, .textarea textarea').blur(function(){
+  $(this).css("background","");
+ });
 });
